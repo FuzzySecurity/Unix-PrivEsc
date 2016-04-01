@@ -1,6 +1,24 @@
 UNIX-PrivEsc
 ============
 
+This is just an effort to aggregate local UNIX privilege escalation exploits. They are all publicly available but don't allow for a sensible overview + it's always the quirky ones that you can't find when you need them. I am going to progressively push out exploits from a few sources which are listed below for reference. 
+
+Import Complete:
+
+0. http://exploit.linuxnote.org
+
+To Do List:
+
+0. http://web.archive.org/web/20111118031158/http://tarantula.by.ru/localroot/
+0. http://www.0xdeadbeef.info/ (Raptor Kit)
+0. OSX (Google-fu)
+0. Exploit-DB (anything that's missing)
+
+WARNING
+-------
+
+Be careful, the compiled exploits in the repo could contain ANYTHING, you may launch them and get root or "rm -rf /" or discover the formula for time travel! They have been added here for the odd sticky situation but I would never recommend running them if an alternative is available and certainly not without manual inspection!
+
 Target List
 -----------
 
@@ -76,16 +94,14 @@ Target List
 2.6.31.5 	       ==> 	enlightenment.tgz
 2.6.31 	           ==> 	xpl-2.6.31-2010.zip
 2.6.3-37 	       ==> 	2.6.37.zip
-FreeBSD 8.0 	   ==> 	w00t.sh
 FreeBSD 4.4-4.6    ==> 	bsd.zip
 FreeBSD 4.8 	   ==> 	48local.zip
 FreeBSD 5.3 	   ==> 	exploit.zip, exploit.c, freedbs5.3.zip
-Mac OS X 	       ==> 	macosX.zip
+FreeBSD 8.0 	   ==> 	w00t.sh
+RedHat 7.0 	       ==> 	crontab.c, epcs2.c
+RedHat 7.1 	       ==> 	rh71sm8.c
 RedHat 7.3 	       ==> 	afd-expl.zip, alsaplayer-suid.zip,
                         nslconf.zip, ohMy-another-efs.zip
 RedHat 8.0 	       ==> 	0x82-Remote.tannehehe.xpl.c, efs_local.zip,
                         efs_local.c, ifenslave.zip, ifenslave.c
-RedHat 7.0 	       ==> 	crontab.c, epcs2.c
-RedHat 7.1 	       ==> 	rh71sm8.c
-
 ```
