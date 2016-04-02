@@ -93,7 +93,7 @@ Target List
 2.6.23 - 2.6.24    ==>  vmsplice.c
 2.6.31.5           ==>  enlightenment.tgz
 2.6.31             ==>  xpl-2.6.31-2010.zip
-2.6.3-37           ==>  2.6.37.zip, full-nelson.c
+2.6.3-37           ==>  2.6.37.zip, full-nelson.c, half-nelson.c
 FreeBSD 4.4-4.6    ==>  bsd.zip
 FreeBSD 4.8        ==>  48local.zip
 FreeBSD 5.3        ==>  exploit.zip, exploit.c, freedbs5.3.zip
