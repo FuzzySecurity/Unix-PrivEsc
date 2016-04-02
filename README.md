@@ -6,6 +6,7 @@ This is just an effort to aggregate local UNIX privilege escalation exploits. Th
 Import Complete:
 
 0. http://exploit.linuxnote.org
+0. http://www.0xdeadbeef.info/ (Partial, x86 Solaris)
 
 To Do List:
 
@@ -104,4 +105,7 @@ RedHat 7.3         ==>  afd-expl.zip, alsaplayer-suid.zip,
                         nslconf.zip, ohMy-another-efs.zip
 RedHat 8.0         ==>  0x82-Remote.tannehehe.xpl.c, efs_local.zip,
                         efs_local.c, ifenslave.zip, ifenslave.c
+Solaris(x86) 8-9   ==>  raptor_ucbps.sh, raptor_peek.c
+Solaris(x86) 10    ==>  raptor_peek.c, raptor_sysinfo.c, raptor_libnspr.sh
+                        raptor_libnspr2.sh, raptor_libnspr3.sh
 ```
