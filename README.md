@@ -109,4 +109,5 @@ Solaris(x86) 8-9   ==>  raptor_ucbps.sh, raptor_peek.c
 Solaris(x86) 10    ==>  raptor_peek.c, raptor_sysinfo.c, raptor_libnspr.sh
                         raptor_libnspr2.sh, raptor_libnspr3.sh
 AIX 5.3 & 6.1      ==>  raptor_libC.sh
+AIX 6.1 & 7.1      ==>  tmb-vs-ibm-aix-libodm.c
 ```
